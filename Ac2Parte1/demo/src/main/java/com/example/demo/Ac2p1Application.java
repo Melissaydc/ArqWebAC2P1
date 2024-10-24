@@ -29,9 +29,9 @@ public class Ac2p1Application {
 			Setor setor3 = Setor.builder().nome("Marketing").build();
 			setorRepository.saveAll(List.of(setor1, setor2, setor3));
 
-			Funcionario func1 = Funcionario.builder().nome("Melissa").setor(setor1).build();
-			Funcionario func2 = Funcionario.builder().nome("Nathan").setor(setor2).build();
-			Funcionario func3 = Funcionario.builder().nome("Cauê").setor(setor3).build();
+			Funcionario func1 = Funcionario.builder().nome("Melissa Yung").setor(setor1).build();
+			Funcionario func2 = Funcionario.builder().nome("Nathan Laurindo").setor(setor2).build();
+			Funcionario func3 = Funcionario.builder().nome("Cauê Fogaça").setor(setor3).build();
 			funcionarioRepository.saveAll(List.of(func1, func2, func3));
 
 			Projeto projeto1 = Projeto.builder()
